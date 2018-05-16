@@ -1,0 +1,46 @@
+{
+  "name": "Trello full dashboard",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Trello full dashboard",
+  "homepage_url": "http://extensionizr.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "src/bg/background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "cookies",
+    "https://*/* ",
+    "http://google.com/*",
+    "https://trello.com/*"
+  ],
+  "omnibox": {
+    "keyword": "trello"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://trello.com/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://trello.com/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
