@@ -1,6 +1,6 @@
-# Trello full dashboard Chrome extension
+# [Trello full dashboard Chrome extension](https://chrome.google.com/webstore/detail/trello-full-dashboard/lbljkcdfoichomiafmpbimhjajgnijgp)
 
-Leaves the new trello dashboard full screen
+> Leaves the new trello dashboard full screen
 
 ![screenshot full dashboad 1](/screenshots/trello-dashboard-full-screen-1.png "screenshot full dashboad 1")
 
