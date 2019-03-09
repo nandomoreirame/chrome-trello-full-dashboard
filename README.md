@@ -10,12 +10,19 @@
 
 - Clone or download this repository
 - Open Google Chrome
-- Go to chrome://extensions/
+- Go to [chrome://extensions/](chrome://extensions/)
 - Enable "Developer mode" option
 - Click in "Load unpacked"
 - Select the folder of this repository
 - Enjoy it!
 
+
+## Author
+
+| [![twitter/oseunando](https://avatars6.githubusercontent.com/u/1318271?v=4&s=120)](http://twitter.com/oseunando "Follow @oseunando on Twitter") |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Fernando Moreira](http://twitter.com/oseunando)                                                                                                |
+
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Code is under [MIT License](/LICENSE) - © Fernando Moreira
